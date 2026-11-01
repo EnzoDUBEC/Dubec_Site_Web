@@ -1,19 +1,25 @@
 <!DOCTYPE html>
-<html lang="fr">
+<!-- Indique au navigateur que ce fichier est une page web HTML (au cas ou vous ne le saviez pas encore) -->
+<html lang="fr"> <!-- lang="fr" : précise que la page est écrite en français -->
 <head>
-  <meta charset="UTF-8">
-  <title>Les loups en France</title>
-  <link rel="stylesheet" href="Thematique.css">
+  <!-- Informations invisibles sur la page -->
+  <meta charset="UTF-8"> <!-- Permet d'afficher correctement les accents -->
+  <title>Les loups en France</title> <!-- Titre affiché dans l'onglet du navigateur -->
+  <link rel="stylesheet" href="Thematique.css"> <!-- Relie la page à son fichier de style css -->
 </head>
 <body>
 
+  <!-- <header> : l'en-tête de la page (titre et petit phrase d'introduction) -->
   <header>
-    <h1>Les loups en France</h1>
+    <h1>Les loups en France</h1> <!-- Titre principal de la page -->
     <p>Découvrez tout sur le loup : qui il est, où il vit et la protection de leur espèce en France.</p>
   </header>
 
+  <!-- <Contenue> :regroupe le contenu principal. un peu comme <main> -->
   <Contenue>
-    <h2>Les thèmes</h2>
+    <h2>Les thèmes</h2> <!-- <h2> : titre de section -->
+      <!-- Page sommaire : chaque <a href="..."> est un lien qui mène vers la page d'un sujet,
+           et le <p> en dessous résume le sujet en une ligne -->
       <a href="loup.html">Qu'est-ce qu'un loup ?</a>
       <p>Description, espèce, caractéristiques.</p>
       <a href="Localisation.html">Où vivent-ils en France ?</a>
@@ -28,6 +34,7 @@
       <p>Lois, actions et enjeux.</p>
   </Contenue>
 
+  <!-- <bas> : pied de page. Contient les crédits et l'avertissement que mes informations peuvent être obsolètes dues à des changements -->
   <bas>
     <p>Les loups en France ; Projet de DUBEC Enzo</p>
     <p>Attention : les informations présentées peuvent avoir changé depuis leur publication sur mon site, informations intégrées le 29/10/2026.</p>

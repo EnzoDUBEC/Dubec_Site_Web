@@ -1,29 +1,41 @@
 <!DOCTYPE html>
+<!-- Indique que ce fichier est une page HTML (basique -_-) -->
 <html>
+    <!-- <html> : contient toute la page -->
+
     <head>
-        <meta charset="utf-8">
-        <title>Accueil Site Web DUBEC</title>
-        <link rel="stylesheet" href="accueil.css">
+        <!-- <head> : informations invisibles sur la page (titre, style, accents... en bref le paramétrage) -->
+        <meta charset="utf-8"> <!-- Permet d'afficher correctement les accents (é, è, à... puisque certain navigateur ont du mal à les afficher) -->
+        <title>Accueil Site Web DUBEC</title> <!-- Titre affiché dans l'onglet du navigateur, en haut -->
+        <link rel="stylesheet" href="accueil.css"> <!-- Relie la page à son fichier de style, soit le fichier css (couleurs, mise en page) -->
     </head>
 
     <body>
+    <!-- <body> : tout ce qui est visible sur la page, le corps quoi... -->
 
+    <!-- <header> : l'en-tête de la page (titre principal) -->
     <header>
-      <strong><h1>Bienvenue à mon premier site web!!</h1></strong>
-      <p><h2>Fait par Enzo DUBEC</h2></p>
+      <strong><h1>Bienvenue à mon premier site web!!</h1></strong> <!-- <h1> : titre principal, <strong> : texte en gras -->
+      <p><h2>Fait par Enzo DUBEC</h2></p> <!-- <h2> : sous-titre, <p> : paragraphe -->
     </header>
 
+    <!-- <div> class="content" Est la fondation de la page (positionnement de left et right) -->
     <div class="content">
+
+     <!-- Colonne de gauche : les CV, français et anglais -->
      <div class="left">
-        <ul>
+        <ul> <!-- <ul> : liste -->
+         <!-- <li> : un élément de la liste, <button> : bouton, <a href="..."> sont les boutons avec les liens des CV  -->
          <li><button><a href="EN_Resume_html.HTML">My English Resume</a></button></li>
          <li><button><a href="FR_CV_html.HTML">Mon CV Français</a></button></li>
         </ul>
         
      </div>
 
+     <!-- Colonne de droite : la thématique/projet choisit et le contact -->
      <div class="right">
       <ul>
+        <!-- [répétiton] <li> : un élément de la liste, <button> : bouton, <a href="..."> sont les boutons avec les liens des CV  -->
          <li><button><a href="Thematique.html">Ma Thématique</a></button></li>
          <li><button><a href="Contacte.html">Me Contacter</a></button></li>
       </ul>

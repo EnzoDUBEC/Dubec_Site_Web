@@ -1,22 +1,28 @@
 <!DOCTYPE html>
+<!-- Indique au navigateur que ce fichier est une page HTML -->
 <html>
 <head>
-<meta charset="UTF-8">
-<title>CV Dubec Enzo</title>
-<link rel="stylesheet" href="FR_CV.css">
+<!-- Informations invisibles sur la page -->
+<meta charset="UTF-8"> <!-- Permet d'afficher correctement les accents -->
+<title>CV Dubec Enzo</title> <!-- Titre affiché dans l'onglet du navigateur -->
+<link rel="stylesheet" href="FR_CV.css"> <!-- Relie la page à son fichier de style css -->
 </head>
 <body>
 
+<!-- <header> : en-tête du CV (nom, statut, recherche de stage) -->
 <header>
-  <h1>DUBEC ENZO</h1>
-  <p>ÉTUDIANT DE PREMIÈRE ANNÉE</p>
+  <h1>DUBEC ENZO</h1> <!-- Titre principal : le nom -->
+  <p>ÉTUDIANT DE PREMIÈRE ANNÉE</p> <!-- <p> : paragraphe -->
   <p>À la recherche d'un stage en informatique</p>
 </header>
 
+<!-- <div> : div qui regroupe tout le contenu du CV -->
 <div class="content">
+
+  <!-- Colonne de gauche : informations pratiques, compétences, langues -->
   <div class="left">
-    <h2>Informations</h2>
-    <div class="contact">
+    <h2>Informations</h2> <!-- <h2> : titre de section -->
+    <div class="contact"> <!-- Boîte pour les coordonnées et moyens de contact -->
       <p>Téléphone : 06-17-86-62-31</p>
       <p>E-mail : enzo.dubec80@gmail.com</p>
       <p>Adresse : Harbonière, 20 rue du Maréchal Leclers</p>
@@ -24,22 +30,25 @@
     </div>
 
     <h2>Compétences</h2>
+    <!-- <ul> : liste à puces, <li> : un élément de la liste -->
     <ul>
-      <li>Esprit d'équipe</li>
-      <li>Organisé</li>
-      <li>Maîtrise du logiciel Visual Studio Code</li>
+      <li>Esprit d'équipe</li> <!-- Je sais travailler en équipe et m'adapter aux autres -->
+      <li>Organisé</li><!-- Je suis organisé et j'aime que les choses soient bien faites sauf quand je suis pressé -->
+      <li>Maîtrise du logiciel Visual Studio Code</li> <!-- Je dirai pas maîtrise mais plutôt une bonne connaissance -->
       <li>Connaissance de la cybersécurité et des langages réseau et web tels que HTML, CSS, PYTHON, JAVASCRIPT</li>
     </ul>
 
-    <h2>Langues</h2>
+    <h2>Langues</h2> <!-- un de mes points forts -->
     <ul>
       <li>Anglais (bonnes compétences à l'oral et à l'écrit)</li>
       <li>Français (langue maternelle)</li>
     </ul>
   </div>
 
+  <!-- Colonne de droite : parcours scolaire, stage, centres d'intérêt -->
   <div class="right">
     <h2>Formation</h2>
+    <!-- Les "class" (date, school, detail) permettent au CSS de mettre en forme chaque type d'information avec different styles (comme souligné ou bien d'autre choses) -->
     <p class="date">2018-2022</p>
     <p class="school">Collège Saint Colette</p>
     <p class="detail">Diplôme national du brevet, de la sixième à la troisième (enseignements généraux)</p>
@@ -54,7 +63,7 @@
     <p class="detail">Observation de nombreuses tâches liées aux connexions réseau et à l'administration de serveurs.</p> 
     <p class="detail">Participation également à certaines activités comme le branchement d'imprimantes au serveur et l'installation d'ordinateurs.</p>
 
-    <h2>Centres d'intérêt</h2>
+    <h2>Centres d'intérêt</h2> <!-- Mes centres d'intérêt, ce que j'aime faire dans mon temps libre -->
     <ul>
       <li>Pratique du VTT (par le passé)</li>
       <li>Lecture de mangas et de bandes dessinées</li>

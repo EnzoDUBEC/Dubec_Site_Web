@@ -1,45 +1,54 @@
 <!DOCTYPE html>
+<!-- Indique au navigateur que ce fichier est une page HTML -->
 <html>
 <head>
-<meta charset="UTF-8">
-<title>Dubec Enzo Resume</title>
-<link rel="stylesheet" href="EN_Resume.css">
+<!-- Informations invisibles sur la page (titre, style, accents... en bref le paramétrage) -->
+<meta charset="UTF-8"> <!-- Permet d'afficher correctement les accents et caractères spéciaux -->
+<title>Dubec Enzo Resume</title> <!-- Titre affiché dans l'onglet du navigateur -->
+<link rel="stylesheet" href="EN_Resume.css"> <!-- Relie la page à son fichier de style css -->
 </head>
 <body>
 
+<!-- <header> : en-tête du CV (mon nom, statut, stage, etc...) -->
 <header>
-  <h1>DUBEC ENZO</h1>
-  <p>FIRST-YEAR STUDENT</p>
-  <p>Looking for a IT Internship</p>
+  <h1>DUBEC ENZO</h1> <!-- Mon nom-->
+  <p>FIRST-YEAR STUDENT</p> <!-- Mon statut d'étudiant -->
+  <p>Looking for a IT Internship</p> <!-- Mon objectif de stage -->
 </header>
 
+<!-- <div> : boîte qui regroupe tout le contenu du CV -->
 <div class="content">
+
+  <!-- Colonne de gauche : informations pratiques, compétences, langues -->
   <div class="left">
-    <h2>Information</h2>
-    <div class="contact">
+    <h2>Information</h2> <!-- <h2> : titre de section -->
+    <div class="contact"> <!-- div pour les coordonnées et moyen de contact -->
       <p>Phone: 06-17-86-62-31</p>
       <p>Email: enzo.dubec80@gmail.com</p>
       <p>Address: Harbonière, 20 street of Marechal Leclers</p>
-      <p>Currently passing my driver license</p>
+      <p>Recently obtained my driver license</p> <!-- Obtenue récemment durant les vacances (^.^) -->
     </div>
 
     <h2>Skills</h2>
+    <!-- <ul> : liste ordonnée, <li> : un élément de la liste -->
     <ul>
-      <li>Teamwork skills</li>
-      <li>Organized</li>
-      <li>Mastery of the software VisualStudio CODE</li>
+      <li>Teamwork skills</li> <!-- Je sais travailler en équipe et m'adapter aux autres -->
+      <li>Organized</li> <!-- Je suis organisé et j'aime que les choses soient bien faites sauf quand je suis pressé -->
+      <li>Mastery of the software VisualStudio CODE</li> <!-- Je dirai pas maîtrise mais plutôt une bonne connaissance -->
       <li>Knowledge of cybersecurity and networking languages such as HTML, CSS, PYTHON, JAVASCRIPT</li>
     </ul>
 
-    <h2>Languages</h2>
+    <h2>Languages</h2> <!-- un de mes points forts -->
     <ul>
       <li>English (good speaking and writing skills)</li>
       <li>French (Native language)</li>
     </ul>
   </div>
 
+  <!-- Colonne de droite : parcours scolaire, stage, centres d'intérêt -->
   <div class="right">
     <h2>Education</h2>
+    <!-- Les "class" (date, school, detail) permettent au CSS de mettre en forme chaque type d'information avec different styles (comme souligné ou bien d'autre choses) -->
     <p class="date">2018-2022</p>
     <p class="school">Junior High School Saint Colette</p>
     <p class="detail">Middle-school certificate, from Sixth Grade to Ninth Grade (studied General subjects)</p>
@@ -54,7 +63,7 @@
     <p class="detail">Observed many tasks related to network connections and server administration.</p> 
     <p class="detail">Also participated in some activities like connecting printers into the server and setting up computers.</p>
 
-    <h2>Interests</h2>
+    <h2>Interests</h2> <!-- Mes centres d'intérêt, ce que j'aime faire dans mon temps libre -->
     <ul>
       <li>Used to do Mountain Biking</li>
       <li>Reading manga and comics books</li>
