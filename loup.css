@@ -1,0 +1,42 @@
+
+body {
+    background-color: #f7f7f4;
+    color: #333333;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    background-color: #315b3a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 25px;
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    color: #315b3a;
+    border-bottom: 2px solid #b5c9ad;
+    padding-bottom: 5px;
+}
+
+contenue {
+    display: block;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 25px;
+    border-radius: 5px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+a {
+    color: #315b3a;
+}

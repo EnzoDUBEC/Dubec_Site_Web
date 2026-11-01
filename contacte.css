@@ -1,11 +1,22 @@
- header {
+body {
+    background-color: #e3e0e0;
+    color: #323232;
+    margin: 0;
+    padding: 20px;
+}
+header {
     text-align: center;
-    margin-bottom: 30px;
-    background-color: #1f07f6;
-  }
-
+    background-color: #315b3a;
+    color: white;
+    padding: 20px;
+    margin-bottom: 25px;
+}
 .content {
-    text-align: center;
-    display:absolute;
-    border: 2px solid #000;
-  }
+    max-width: 750px;
+    margin: auto;
+    padding: 25px;
+    background-color: white;
+    border: 1px solid #d4d2d2;
+}
+.content p { 
+    margin-bottom: 15px; }
